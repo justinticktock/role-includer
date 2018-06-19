@@ -3,7 +3,7 @@
 Plugin Name: Role Includer
 Plugin URI: http://justinandco.com/plugins/role-includer
 Description: Allows users to be allocated multiple roles.
-Version: 1.4
+Version: 1.6
 Author: Justin Fletcher
 Author URI: http://justinandco.com
 Text Domain: role-includer
@@ -112,7 +112,7 @@ class ROLE_INCLUDER {
 	}
 
 
-        /**
+    /**
 	 * Initialise the plugin menu.
 	 *
 	 * @return void

@@ -25,6 +25,7 @@ function role_includer_clean_database( ) {
 		
 		delete_option( 'role_includer_plugin_version' );
 		delete_option( 'role_includer_install_date' );
+		delete_option( 'role_includer_enable_roles' );
 
 		// plugin specific database entries
 		delete_option( 'role_includer_user_role_editor_plugin' );
@@ -34,9 +35,9 @@ function role_includer_clean_database( ) {
 		delete_option( 'role_includer_deactivate_capability-manager-enhanced' );
 		
 		// user specific database entries
-		delete_user_meta( get_current_user_id( ), 'role_includer_prompt_timeout' );
-		delete_user_meta( get_current_user_id( ), 'role_includer_start_date' );
-		delete_user_meta( get_current_user_id( ), 'role_includer_hide_notice' );
+		delete_user_meta( get_current_user_id( ), 'role_includer_prompt_timeout', $meta_value );
+		delete_user_meta( get_current_user_id( ), 'role_includer_start_date', $meta_value );
+		delete_user_meta( get_current_user_id( ), 'role_includer_hide_notice', $meta_value );
 
 }
 

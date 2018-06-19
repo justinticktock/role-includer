@@ -1,9 +1,8 @@
 === Plugin Name ===
-Contributors: justinticktock
+Contributors: justinticktock, keycapability
 Tags: roles, user, cms, groups, teams
 Requires at least: 3.5
 Tested up to: 4.9
-Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,6 +18,15 @@ So by simply creating a new role, for example "staff" and adding the 'promote_us
  
 
 If you wish to hide/mask-out a particular role from "staff" ( such as "Administrator" ) so that staff cannot allocate the higher access level then you can exclude higher roles by using the "Role Excluder" plugin available over at [justinandco.com](https://justinandco.com/plugins/)
+
+
+= Plugin site =
+
+http://justinandco.com/plugins/role-includer/
+
+= GitHub - Development =
+
+https://github.com/justinticktock/role-includer
 
 == Installation ==
 
